@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/img_change_select"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <yvan.com.surfaceviewtest.LuckyPan
+        android:id="@+id/sv_lucky_pan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="20dp" />
+
+    <ImageView
+        android:id="@+id/img_control"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/center_start" />
+</FrameLayout>
